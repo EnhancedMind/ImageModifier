@@ -23,9 +23,9 @@ function ReadLine() {
             else setAnswer(1, answer1);
             Image();
 
-            rl.question(`Made ${answer0}.output.png and ${answer0}.output_reduced.png as a preview\n    Should I now make the data text file? `, answer2 => {
-                if (!['y', 'yes', 'n', 'no'].includes(answer2)) return terminate(`The only valid options are: [ 'y', 'yes', 'n', 'no' ]`);
-                if (['y', 'yes'].includes(answer2)) makeFile();
+            rl.question(`Made ${answer0}.output.png and ${answer0}.output_reduced.png as a preview\n    Should I now make the data text file? (leave blank for yes) `, answer2 => {
+                if (!['y', 'yes', 'n', 'no', ''].includes(answer2)) return terminate(`The only valid options are: [ 'y', 'yes', 'n', 'no', '' ]`);
+                if (['y', 'yes'].includes(answer2) || answer2 == '') makeFile();
                 rl.close();
 
                 console.log('Process completed, press any key to continue . . .');
