@@ -12,6 +12,6 @@ You will need to install some modules using the following command
   
 `npm i`  
   
-You can then also compile it yourself using `pkg .` command  
+You can then install [pkg](https://www.npmjs.com/package/pkg) using `npm i pkg -g` and compile it yourself using `pkg .` command  
   
 ### Made with ❤️ by EnhancedMind  
