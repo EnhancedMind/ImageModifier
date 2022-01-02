@@ -1,0 +1,32 @@
+{
+  "name": "nodejs_image_modifier",
+  "version": "0.1.0",
+  "description": "Application for modifying picture to 100x75 64color picture and its binary",
+  "main": "src/main.js",
+  "bin": "src/main.js",
+  "author": "EnhancedMind",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/EnhancedMind/   TO DO   #readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnhancedMind/   TO DO   .git"
+  },
+  "bugs": {
+    "url": "https://github.com/EnhancedMind/   TO DO   /issues"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sharp": "^0.29.3"
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}
