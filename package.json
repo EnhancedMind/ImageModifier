@@ -1,18 +1,18 @@
 {
   "name": "nodejs_image_modifier",
   "version": "0.1.0",
-  "description": "Application for modifying picture to 100x75 64color picture and its binary",
+  "description": "Application for modifying picture to 100x75 64color picture and its binary for Ben Eater style world worst video cards",
   "main": "src/main.js",
   "bin": "src/main.js",
   "author": "EnhancedMind",
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/EnhancedMind/   TO DO   #readme",
+  "homepage": "https://github.com/EnhancedMind/ImageModifier#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnhancedMind/   TO DO   .git"
+    "url": "git+https://github.com/EnhancedMind/ImageModifier.git"
   },
   "bugs": {
-    "url": "https://github.com/EnhancedMind/   TO DO   /issues"
+    "url": "https://github.com/EnhancedMind/ImageModifier/issues"
   },
   "scripts": {
     "start": "node src/main.js",
