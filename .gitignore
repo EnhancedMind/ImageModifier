@@ -1,1 +1,8 @@
+node_modules/
+package-lock.json
+dist/
 file
+*.jpg
+*.png
+*.txt
+*.old
