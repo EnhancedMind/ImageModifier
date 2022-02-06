@@ -1,6 +1,6 @@
 {
   "name": "nodejs_image_modifier",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Application for modifying picture to 100x75 64color picture and its binary for Ben Eater style world worst video cards",
   "main": "src/main.js",
   "bin": "src/main.js",
